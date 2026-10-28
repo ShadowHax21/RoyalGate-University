@@ -12,7 +12,7 @@ body{
 
 .sect-1{
     width: 100%;
-    background: linear-gradient(#000000, #00000000),url(.../img/Downly.png);
+    background: linear-gradient(#000000, #00000000),url(../img/Downly.png);
     height: 100vh;
     background-size: cover;
     border-bottom-left-radius: 20px;
