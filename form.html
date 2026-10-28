@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form- Enroll into Royalgate university</title>
+    <Header>Registration Form</Header>
+    <link rel="stylesheet" href="Style (form).css">
+</head>
+<body>
+    <H1>Fill in the form below with your details</H1>
+    <form class="form">
+        <div class="fname">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" class="fnameta">
+        </div>
+
+        <div class="lname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" class="lnameta">
+        </div>
+
+        <div class="mail">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="mailta">
+        </div>
+
+        <div class="psswrd">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="psswrdta">
+        </div>
+
+        <div class="dob">
+            <label for="Date of Birth">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" class="dobta" placeholder="Enter D.O.B in dd'mm'yyy">
+        </div>
+
+        <div class="time">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" class="timeta">
+        </div>
+
+        <!--<div class="skllrng">
+            <label for="skill">Skill Range:</label>
+            <div class="skill-container">
+                <input type="range" id="skill" name="skill" min="0" max="10" class="skllrngta">
+                <div class="skill-labels">
+                    <span class="skill-label">Beginner</span>
+                    <span class="skill-label">Intermediate</span>
+                    <span class="skill-label">Advanced</span>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="upld">
+            <label for="Upload passport">Upload Passport:</label>
+            <input type="file" id="passport" name="passport">
+        </div>
+
+        <div class="sex">
+            <label for="Sex">Sex:</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div class="courses">
+            <label for="program">Choose Program:</label> 
+            <select id="program" name="program">
+                <option value="">-- Select program --</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="business">Business Administration</option>
+                <option value="engineering">Engineering</option>
+                <option value="arts">Arts & Humanities</option>
+                <option value="law">Law</option>
+            </select>
+        </div>
+
+        <div class="permission">
+            <label for="Checkbox">Allow this form to access your contact</label>
+            <input type="checkbox" id="contact" name="contact" value="yes">
+        </div>
+
+        <div class="sbmt">
+            <div>
+                <label for="submit">Submit</label>
+            </div>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
